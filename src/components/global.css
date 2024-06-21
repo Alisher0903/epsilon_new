@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* alisher */
+.home-bg {
+    background: linear-gradient(177.95deg, rgba(22, 118, 114, 0.52) 19.41%, #A2E9A9 105.7%);
+}
+
+.table-bg {
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.listlar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .3px dotted gray;
+    margin-top: 1rem;
+}
+.addBtn {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+/* alisher */
+
